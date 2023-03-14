@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: whitesmoke;
+}
+
+/* li {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+li:hover::before {
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: 100%;
+  background: #3a8f32;
+  right: 0;
+  color: #3a8f32;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.card {
+  background: black;
+} */
