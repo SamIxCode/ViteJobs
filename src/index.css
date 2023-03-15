@@ -11,9 +11,10 @@ body {
   background: whitesmoke;
 }
 
-/* li {
+li {
   list-style: none;
   cursor: pointer;
+  display: inline-block;
   position: relative;
 }
 
@@ -24,6 +25,7 @@ li:hover::before {
   width: 100%;
   background: #3a8f32;
   right: 0;
+  bottom: -10px;
   color: #3a8f32;
 }
 
@@ -33,4 +35,4 @@ li:hover::before {
 
 .card {
   background: black;
-} */
+} 
