@@ -7,7 +7,7 @@ import { Footer } from './compontents/FooterDiv/Footer'
 
 const App = () => {
   return (
-    <div>
+    <div className='w-[85%] m-auto bg-whitesmoke'>
       <Navbar />
       <Search />
       <Job />

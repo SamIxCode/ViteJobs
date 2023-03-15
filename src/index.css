@@ -35,4 +35,8 @@ li:hover::before {
 
 .card {
   background: black;
-} 
+}
+
+.shadow-black {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25) !important;
+}
