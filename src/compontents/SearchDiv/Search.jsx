@@ -6,7 +6,7 @@ export const Search = () => {
     <div className='searchDiv grid gap-5 bg-darkerGrey rounded-[10px] p-[3rem]'>
       <form action=''>
         <div className='firstDiv flex  justify-between items-center 
-        rounded-[8px] gap-[10px] bg-white p-5  shadow-black-500/50 shadow-lg'>
+        rounded-[8px] gap-[10px] bg-white p-3  shadow-black-500/50 shadow-lg'>
 
           <div className='flex gap-1 items-center w-[100%]'>
             <GoSearch className='icon text-[25px]' />
@@ -23,19 +23,21 @@ export const Search = () => {
       </form>
 
       <div className='secDiv flex items-center gap-5 justify-center font-medium'>
+
         <div className='single Search flex items-center gap-2'>
-          <label htmlFor='relevance' className='text-darkGrey font-semibold'>
-            Sort by:
-            <select name='' id='relevance' className='bg-whiteSmoke rounded-[3px] px-4 py-1'>
+          <label htmlFor='relevance' className='text-darkGrey font-semibold '>
+            <text className='textfield mr-2'>Sort by:</text>
+            <select name='' id='relevance' className='bg-whiteSmoke rounded-[3px] px-4 py-1 '>
               <option value="">Relevance</option>
               <option value="">Start With</option>
               <option value="">Contains</option>
             </select>
           </label>
         </div>
+
         <div className='single Search flex items-center gap-2'>
           <label htmlFor='level' className='text-darkGrey font-semibold'>
-            Level:
+            <text className='textfield mr-2'>Level:</text>
             <select name='' id='level' className='bg-whiteSmoke rounded-[3px] px-4 py-1'>
               <option value="">level</option>
 
@@ -45,9 +47,10 @@ export const Search = () => {
             </select>
           </label>
         </div>
+
         <div className='single Search flex items-center gap-2'>
           <label htmlFor='type' className='text-darkGrey font-semibold'>
-            Type:
+            <text className='textfield mr-2'>Type:</text>
             <select name='' id='type' className='bg-whiteSmoke rounded-[3px] px-4 py-1'>
               <option value="">type</option>
 
@@ -57,7 +60,8 @@ export const Search = () => {
             </select>
           </label>
         </div>
-        <span className='text-darkGrey hover:font-bold'>Clear All</span>
+
+        <span className='text-darkGrey hover:text-black font-semibold'>Clear All</span>
         {/* stop element shift on hover */}
       </div>
 
