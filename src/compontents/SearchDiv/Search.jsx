@@ -22,7 +22,7 @@ export const Search = () => {
         </div>
       </form>
 
-      <div className='secDiv flex items-center gap-5 justify-center font-medium'>
+      <div className='secDiv flex  justify-center gap-5  font-medium'>
 
         <div className='single Search flex items-center gap-2'>
           <label htmlFor='relevance' className='text-darkGrey font-semibold '>
