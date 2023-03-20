@@ -1,6 +1,7 @@
 import React from 'react'
 import { GoSearch } from 'react-icons/go';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
+import { BiMap } from "react-icons/bi"
 export const Search = () => {
   return (
     <div className='searchDiv grid gap-5 bg-darkerGrey rounded-[10px] p-[3rem]'>
@@ -14,7 +15,7 @@ export const Search = () => {
             <AiOutlineCloseCircle className='text-[30px] text-greyColor hover:text-darkerGrey icon' />
           </div>
           <div className='flex gap-1 items-center w-[100%]'>
-            <GoSearch className='icon text-[25px]' />
+            <BiMap className='icon text-[25px]' />
             <input type='text' className='bg-transparent text-green-800 focus:outline-none w-[100%]' placeholder='Location'></input>
             <AiOutlineCloseCircle className='text-[30px] text-greyColor hover:text-darkerGrey icon' />
           </div>
