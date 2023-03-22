@@ -38,7 +38,8 @@ export const Job = () => {
             </h6>
             <p className='Posting Job border-t-2 p-2 hover:text-black'>{desc}</p>
   
-            <div className='company flex items-center gap-2 '>
+            <div className='company flex items-center gap-2  pb-2 font-semibold'>
+              <img src={logo1} className='w-5'></img> {company}
             </div>
   
             <button className=' outline outline-2 outline-greenColor rounded-[10px] gap-2 p-3 block w-full font-semibold text-textColor bg-transparent group-hover:bg-whiteSmoke hover:duration-500 '>
